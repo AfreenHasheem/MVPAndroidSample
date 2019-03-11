@@ -15,9 +15,10 @@ public interface LoginView {
     void setPasswordError();
 
     //if username and password are correct go to main activity
+    //on successful log if you want to do something can do that here
     void navigateToMain();
 
-    //if you get an error on login, ie. if if username and password are wrong show error
+    //if you get an error on login, ie. if  username and password are wrong show error message
     void showAlert(String message);
 
 }
